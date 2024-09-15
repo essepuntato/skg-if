@@ -17,25 +17,10 @@
             literal:hasLiteralValue "br/061701903780" ],
         [ datacite:usesIdentifierScheme datacite:doi ;
             literal:hasLiteralValue "10.1007/978-3-030-62466-8_28" ] ;
-    pro:isRelatedToRoleInTime [ co:index "9"^^xsd:positiveInteger ;
-            pro:isHeldBy <https://w3id.org/oc/meta/ra/065061926> ;
-            pro:withRole pro:author ],
-        [ co:index "6"^^xsd:positiveInteger ;
-            pro:isHeldBy <https://w3id.org/oc/meta/ra/0614010840729> ;
-            pro:withRole pro:author ],
-        [ co:index "8"^^xsd:positiveInteger ;
-            pro:isHeldBy <https://w3id.org/oc/meta/ra/0621010775619> ;
-            pro:withRole pro:author ],
-        [ co:index "4"^^xsd:positiveInteger ;
-            pro:isHeldBy <https://w3id.org/oc/meta/ra/06210102697> ;
-            pro:withRole pro:author ],
-        [ pro:isHeldBy <https://w3id.org/oc/meta/ra/0610116006> ;
+    pro:isRelatedToRoleInTime [ pro:isHeldBy <https://w3id.org/oc/meta/ra/0610116006> ;
             pro:withRole pro:publisher ],
-        [ co:index "3"^^xsd:positiveInteger ;
-            pro:isHeldBy <https://w3id.org/oc/meta/ra/06180101627> ;
-            pro:withRole pro:author ],
-        [ co:index "5"^^xsd:positiveInteger ;
-            pro:isHeldBy <https://w3id.org/oc/meta/ra/0615045339> ;
+        [ co:index "7"^^xsd:positiveInteger ;
+            pro:isHeldBy <https://w3id.org/oc/meta/ra/0615010706460> ;
             pro:withRole pro:author ],
         [ co:index "2"^^xsd:positiveInteger ;
             pro:isHeldBy <https://w3id.org/oc/meta/ra/0625011225133> ;
@@ -43,15 +28,30 @@
         [ co:index "1"^^xsd:positiveInteger ;
             pro:isHeldBy <https://w3id.org/oc/meta/ra/0615045315> ;
             pro:withRole pro:author ],
-        [ co:index "7"^^xsd:positiveInteger ;
-            pro:isHeldBy <https://w3id.org/oc/meta/ra/0615010706460> ;
+        [ co:index "4"^^xsd:positiveInteger ;
+            pro:isHeldBy <https://w3id.org/oc/meta/ra/06210102697> ;
+            pro:withRole pro:author ],
+        [ co:index "3"^^xsd:positiveInteger ;
+            pro:isHeldBy <https://w3id.org/oc/meta/ra/06180101627> ;
+            pro:withRole pro:author ],
+        [ co:index "5"^^xsd:positiveInteger ;
+            pro:isHeldBy <https://w3id.org/oc/meta/ra/0615045339> ;
+            pro:withRole pro:author ],
+        [ co:index "6"^^xsd:positiveInteger ;
+            pro:isHeldBy <https://w3id.org/oc/meta/ra/0614010840729> ;
+            pro:withRole pro:author ],
+        [ co:index "8"^^xsd:positiveInteger ;
+            pro:isHeldBy <https://w3id.org/oc/meta/ra/0621010775619> ;
+            pro:withRole pro:author ],
+        [ co:index "9"^^xsd:positiveInteger ;
+            pro:isHeldBy <https://w3id.org/oc/meta/ra/065061926> ;
             pro:withRole pro:author ] ;
     frbr:realization [ a fabio:BookChapter ;
             dcterms:issued "2020-01-01T00:00:00+00:00"^^xsd:dateTime ;
-            datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:doi ;
-                    literal:hasLiteralValue "10.1007/978-3-030-62466-8_28" ],
-                [ datacite:usesIdentifierScheme datacite:omid ;
-                    literal:hasLiteralValue "br/061701903780" ] ;
+            datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:omid ;
+                    literal:hasLiteralValue "br/061701903780" ],
+                [ datacite:usesIdentifierScheme datacite:doi ;
+                    literal:hasLiteralValue "10.1007/978-3-030-62466-8_28" ] ;
             frbr:embodiment [ prism:endingPage "463"^^xsd:string ;
                     prism:startingPage "447"^^xsd:string ] ;
             frbr:partOf <https://w3id.org/oc/meta/br/069065407> ] .
@@ -59,15 +59,15 @@
 <https://w3id.org/oc/meta/br/062501777134> a fabio:ScholarlyWork,
         fabio:Work ;
     dcterms:title "OpenCitations, An Infrastructure Organization For Open Scholarship" ;
-    datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:doi ;
-            literal:hasLiteralValue "10.1162/qss_a_00023" ],
-        [ datacite:usesIdentifierScheme datacite:omid ;
-            literal:hasLiteralValue "br/062501777134" ] ;
-    pro:isRelatedToRoleInTime [ pro:isHeldBy <https://w3id.org/oc/meta/ra/0610116105> ;
-            pro:withRole pro:publisher ],
-        [ co:index "1"^^xsd:positiveInteger ;
+    datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:omid ;
+            literal:hasLiteralValue "br/062501777134" ],
+        [ datacite:usesIdentifierScheme datacite:doi ;
+            literal:hasLiteralValue "10.1162/qss_a_00023" ] ;
+    pro:isRelatedToRoleInTime [ co:index "1"^^xsd:positiveInteger ;
             pro:isHeldBy <https://w3id.org/oc/meta/ra/0614010840729> ;
             pro:withRole pro:author ],
+        [ pro:isHeldBy <https://w3id.org/oc/meta/ra/0610116105> ;
+            pro:withRole pro:publisher ],
         [ co:index "2"^^xsd:positiveInteger ;
             pro:isHeldBy <https://w3id.org/oc/meta/ra/0621010775619> ;
             pro:withRole pro:author ] ;
@@ -75,10 +75,10 @@
             prism:issueIdentifier "1"^^xsd:string ;
             prism:volume "1"^^xsd:string ;
             dcterms:issued "2020-02-01T00:00:00+00:00"^^xsd:dateTime ;
-            datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:omid ;
-                    literal:hasLiteralValue "br/062501777134" ],
-                [ datacite:usesIdentifierScheme datacite:doi ;
-                    literal:hasLiteralValue "10.1162/qss_a_00023" ] ;
+            datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:doi ;
+                    literal:hasLiteralValue "10.1162/qss_a_00023" ],
+                [ datacite:usesIdentifierScheme datacite:omid ;
+                    literal:hasLiteralValue "br/062501777134" ] ;
             frbr:embodiment [ prism:endingPage "444"^^xsd:string ;
                     prism:startingPage "428"^^xsd:string ] ;
             frbr:partOf <https://w3id.org/oc/meta/br/062501778099> ] .
@@ -92,12 +92,12 @@ fabio:JournalArticle skos:inScheme <http://purl.org/spar/fabio> ;
 <https://w3id.org/oc/meta/br/062501778099> a fabio:ExpressionCollection,
         fabio:Journal ;
     dcterms:title "Quantitative Science Studies" ;
-    datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:issn ;
-            literal:hasLiteralValue "2641-3337" ],
-        [ datacite:usesIdentifierScheme <file:///Users/six/Dropbox/Universita%CC%80/PhD/Projects/RDA/skg-if/examples/oc/openalex> ;
+    datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:omid ;
+            literal:hasLiteralValue "br/062501778099" ],
+        [ datacite:usesIdentifierScheme datacite:openalex ;
             literal:hasLiteralValue "S4210195326" ],
-        [ datacite:usesIdentifierScheme datacite:omid ;
-            literal:hasLiteralValue "br/062501778099" ] ;
+        [ datacite:usesIdentifierScheme datacite:issn ;
+            literal:hasLiteralValue "2641-3337" ] ;
     pro:isRelatedToRoleInTime [ pro:isHeldBy <https://w3id.org/oc/meta/ra/0610116105> ;
             pro:withRole pro:publisher ] .
 
@@ -107,37 +107,37 @@ fabio:JournalArticle skos:inScheme <http://purl.org/spar/fabio> ;
     datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:doi ;
             literal:hasLiteralValue "10.1007/978-3-030-62466-8" ],
         [ datacite:usesIdentifierScheme datacite:isbn ;
+            literal:hasLiteralValue "9783030624651" ],
+        [ datacite:usesIdentifierScheme datacite:isbn ;
             literal:hasLiteralValue "9783030624668" ],
         [ datacite:usesIdentifierScheme datacite:omid ;
             literal:hasLiteralValue "br/069065407" ],
-        [ datacite:usesIdentifierScheme <file:///Users/six/Dropbox/Universita%CC%80/PhD/Projects/RDA/skg-if/examples/oc/openalex> ;
-            literal:hasLiteralValue "W4249810877" ],
-        [ datacite:usesIdentifierScheme datacite:isbn ;
-            literal:hasLiteralValue "9783030624651" ] ;
+        [ datacite:usesIdentifierScheme datacite:openalex ;
+            literal:hasLiteralValue "W4249810877" ] ;
     pro:isRelatedToRoleInTime [ pro:isHeldBy <https://w3id.org/oc/meta/ra/0610116006> ;
             pro:withRole pro:publisher ] .
 
 <https://w3id.org/oc/meta/ra/0615010706460> a foaf:Person ;
-    datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:orcid ;
-            literal:hasLiteralValue "0000-0002-7406-6286" ],
-        [ datacite:usesIdentifierScheme datacite:omid ;
-            literal:hasLiteralValue "ra/0615010706460" ] ;
+    datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:omid ;
+            literal:hasLiteralValue "ra/0615010706460" ],
+        [ datacite:usesIdentifierScheme datacite:orcid ;
+            literal:hasLiteralValue "0000-0002-7406-6286" ] ;
     foaf:familyName "Romanello" ;
     foaf:givenName "Matteo" .
 
 <https://w3id.org/oc/meta/ra/0615045315> a foaf:Person ;
-    datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:omid ;
-            literal:hasLiteralValue "ra/0615045315" ],
-        [ datacite:usesIdentifierScheme datacite:orcid ;
-            literal:hasLiteralValue "0000-0002-9806-084X" ] ;
+    datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:orcid ;
+            literal:hasLiteralValue "0000-0002-9806-084X" ],
+        [ datacite:usesIdentifierScheme datacite:omid ;
+            literal:hasLiteralValue "ra/0615045315" ] ;
     foaf:familyName "Colavizza" ;
     foaf:givenName "Giovanni" .
 
 <https://w3id.org/oc/meta/ra/0615045339> a foaf:Person ;
-    datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:omid ;
-            literal:hasLiteralValue "ra/0615045339" ],
-        [ datacite:usesIdentifierScheme datacite:orcid ;
-            literal:hasLiteralValue "0000-0002-6656-1658" ] ;
+    datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:orcid ;
+            literal:hasLiteralValue "0000-0002-6656-1658" ],
+        [ datacite:usesIdentifierScheme datacite:omid ;
+            literal:hasLiteralValue "ra/0615045339" ] ;
     foaf:familyName "Mayr" ;
     foaf:givenName "Philipp" .
 
@@ -166,10 +166,10 @@ fabio:JournalArticle skos:inScheme <http://purl.org/spar/fabio> ;
     foaf:givenName "Marilena" .
 
 <https://w3id.org/oc/meta/ra/065061926> a foaf:Person ;
-    datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:omid ;
-            literal:hasLiteralValue "ra/065061926" ],
-        [ datacite:usesIdentifierScheme datacite:orcid ;
-            literal:hasLiteralValue "0000-0002-6485-9434" ] ;
+    datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:orcid ;
+            literal:hasLiteralValue "0000-0002-6485-9434" ],
+        [ datacite:usesIdentifierScheme datacite:omid ;
+            literal:hasLiteralValue "ra/065061926" ] ;
     foaf:familyName "Zumstein" ;
     foaf:givenName "Philipp" .
 
@@ -188,10 +188,10 @@ fabio:JournalArticle skos:inScheme <http://purl.org/spar/fabio> ;
     foaf:name "Mit Press" .
 
 <https://w3id.org/oc/meta/ra/0614010840729> a foaf:Person ;
-    datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:orcid ;
-            literal:hasLiteralValue "0000-0003-0530-4305" ],
-        [ datacite:usesIdentifierScheme datacite:omid ;
-            literal:hasLiteralValue "ra/0614010840729" ] ;
+    datacite:hasIdentifier [ datacite:usesIdentifierScheme datacite:omid ;
+            literal:hasLiteralValue "ra/0614010840729" ],
+        [ datacite:usesIdentifierScheme datacite:orcid ;
+            literal:hasLiteralValue "0000-0003-0530-4305" ] ;
     foaf:familyName "Peroni" ;
     foaf:givenName "Silvio" .
 

@@ -199,7 +199,7 @@ with open(args.input, "r", encoding="utf-8") as f:
 
                 create_identifiers(ids, venue_object)
 
-                if len(editors):
+                if len(editors) and venue_mapping[item["type"]] in ("book"):
                     if "contributions" not in venue_object:
                         venue_object["contributions"] = []
                     venue_object["contributions"].extend(editors)
