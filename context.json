@@ -45,6 +45,7 @@
         "url": { "@id": "datacite:url", "@protected": true },
         "omid": { "@id": "datacite:omid", "@protected": true },
         "crossref": { "@id": "datacite:crossref", "@protected": true },
+        "openalex": { "@id": "datacite:openalex", "@protected": true },
 
         "entity type": { "@id": "@type", "@type": "@vocab" , "@protected": true },
         "product": { "@id": "fabio:Work", "@protected": true },
